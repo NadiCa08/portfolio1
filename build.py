@@ -33,3 +33,21 @@ def main():
 if __name__ == "__main__":
     main()
 
+pages = [
+    {
+    "filename": "contents/aboutme.html",
+    "output": "docs/aboutme.html",
+    "title": "About Me",
+    },
+    {
+    "filename": "content/projects.html",
+    "output": "docs/projects.html",
+    "title": "My Projects",
+    },
+    {
+    "filename": "content/blog.html",
+    "output": "docs/blog.html",
+    "title": "My programming blog",
+    },
+    # and so on...
+]
