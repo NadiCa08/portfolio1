@@ -1,30 +1,35 @@
-print('combining html files')
+def main():
 
-top = open('templates/top.html').read()
+    print('combining html files')
 
-contents = open('contents/aboutme.html').read()
+    top = open('templates/top.html').read()
 
-contents2 = open('contents/education.html').read()
+    contents = open('contents/aboutme.html').read()
 
-contents3 = open('contents/inclass.html').read()
+    contents2 = open('contents/education.html').read()
 
-contents4 = open('contents/funfacts.html').read()
+    contents3 = open('contents/inclass.html').read()
 
-bottom = open('templates/bottom.html').read()
+    contents4 = open('contents/funfacts.html').read()
 
-
-combined_html = top + contents + bottom 
-open('docs/index.html', 'w+').write(combined_html)
+    bottom = open('templates/bottom.html').read()
 
 
-combined_html_education = top + contents2 + bottom
-open('docs/built_file_education.html', 'w+').write(combined_html_education)
+    combined_html = top + contents + bottom 
+    open('docs/index.html', 'w+').write(combined_html)
 
 
-combined_html_inclass = top + contents3 + bottom
-open('docs/built_file_inclass.html', 'w+').write(combined_html_inclass)
+    combined_html_education = top + contents2 + bottom
+    open('docs/built_file_education.html', 'w+').write(combined_html_education)
 
 
-combined_html_funfacts = top + contents4 + bottom
-open('docs/built_file_funfacts.html', 'w+').write(combined_html_funfacts)
+    combined_html_inclass = top + contents3 + bottom
+    open('docs/built_file_inclass.html', 'w+').write(combined_html_inclass)
+
+
+    combined_html_funfacts = top + contents4 + bottom
+    open('docs/built_file_funfacts.html', 'w+').write(combined_html_funfacts)
+
+if __name__ == "__main__":
+    main()
 
