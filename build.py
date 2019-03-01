@@ -36,18 +36,22 @@ if __name__ == "__main__":
 pages = [
     {
     "filename": "contents/aboutme.html",
-    "output": "docs/aboutme.html",
+    "output": "docs/index.html",
     "title": "About Me",
     },
     {
-    "filename": "content/projects.html",
-    "output": "docs/projects.html",
-    "title": "My Projects",
+    "filename": "contents/education.html",
+    "output": "docs/built_file_education.html",
+    "title": "Education",
     },
-    {
-    "filename": "content/blog.html",
-    "output": "docs/blog.html",
-    "title": "My programming blog",
+     {
+    "filename": "contents/inclass.html",
+    "output": "docs/built_file_inclass.html",
+    "title": "Class Activites",
     },
-    # and so on...
-]
+     {
+    "filename": "contents/funfacts.html",
+    "output": "docs/built_file_funfacts.html",
+    "title": "Fun-Facts",
+    },
+  ]
