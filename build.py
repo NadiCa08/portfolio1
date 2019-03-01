@@ -14,7 +14,7 @@ bottom = open('templates/bottom.html').read()
 
 
 combined_html = top + contents + bottom 
-open('docs/built_file.html', 'w+').write(combined_html)
+open('docs/index.html', 'w+').write(combined_html)
 
 
 combined_html_education = top + contents2 + bottom
