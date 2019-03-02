@@ -58,3 +58,7 @@ pages = [
 
 for page in pages:
     print(page)
+    
+page_title = page['title']
+print(page_title)    
+
