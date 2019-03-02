@@ -55,3 +55,6 @@ pages = [
     "title": "Fun-Facts",
     },
   ]
+
+for page in pages:
+    print(page)
